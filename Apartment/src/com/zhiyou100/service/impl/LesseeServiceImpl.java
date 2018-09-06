@@ -27,6 +27,7 @@ public class LesseeServiceImpl implements LesseeService{
 	@Override
 	public boolean add(Lessee lessee) {
 		// TODO Auto-generated method stub
+		System.out.println("lesseerviceci");
 		int i=lesseeDao.add(lessee);
 		if(i>0){
 			return true;
